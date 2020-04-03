@@ -16,5 +16,18 @@ namespace C_sharp_project_01
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            String login = txtLogin.Text;
+            String password = txtPass.Text;
+
+            MessageBox.Show("Efetuando", "Login");
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
