@@ -86,5 +86,8 @@
   <ItemGroup>
     <None Include="Resources\HILLBLU_button_background.svg.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addressee.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

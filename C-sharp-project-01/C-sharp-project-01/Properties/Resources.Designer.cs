@@ -63,6 +63,16 @@ namespace C_sharp_project_01.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap addressee {
+            get {
+                object obj = ResourceManager.GetObject("addressee", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap HILLBLU_button_background_svg {
             get {
                 object obj = ResourceManager.GetObject("HILLBLU_button_background.svg", resourceCulture);
